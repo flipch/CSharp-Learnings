@@ -19,7 +19,7 @@ namespace Utils
       {
         Console.WriteLine($"Starting to cook {this.type}");
         await Task.Delay(new Random().Next(150, 4000));
-        Console.WriteLine($"Cooked {this.GetType()}");
+        Console.WriteLine($"Cooked {this.type}");
       });
     }
   }
